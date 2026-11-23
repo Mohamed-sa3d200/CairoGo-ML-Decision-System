@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Data and private course materials
+data/
+*.jsonl
+*.parquet
+*.xlsx
+*.zip
+# Allow only explicitly reviewed non-data JSON files if needed (remove blanket rule if project requires)
+# Outputs and local model files
+outputs/
+artifacts/
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+# Notebook checkpoints
+.ipynb_checkpoints/
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
